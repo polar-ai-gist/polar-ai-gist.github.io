@@ -24,7 +24,7 @@ The G1 group focuses on developing hybrid mobility systems capable of traversing
 ---
 
 ### G2: Advanced Sensors and Health Management for Extreme Environments
-**Lead:** Prof. Jaehoon Seol (GIST) | **Postdocs:** 5 <!--| **Budget:** ~3.7 Billion KRW-->
+**Lead:** Prof. Jaehun Seol (GIST) | **Postdocs:** 5 <!--| **Budget:** ~3.7 Billion KRW-->
 
 This group specializes in developing robust sensors and predictive health management (PHM) models for systems operating in extreme conditions.
 *   **Key Research:** hBN cantilever-based resonant IR sensors (operating at -50°C), extreme cold nano-tactile sensors (40,000 cycle durability), and physics-informed AI for complex degradation modeling.
@@ -42,7 +42,7 @@ Energy management is critical under -50°C constraints. G3 develops advanced bat
 ---
 
 ### G4: Extreme Environment Communication and System Integration
-**Lead:** Prof. Jaewuk Lee (GIST) | **Postdocs:** 7 <!--| **Budget:** ~4.2 Billion KRW-->
+**Lead:** Prof. Jaewook Lee (GIST) | **Postdocs:** 7 <!--| **Budget:** ~4.2 Billion KRW-->
 
 G4 is responsible for integrating the subsystems and maintaining connectivity across diverse, unreliable operational conditions.
 *   **Key Research:** Ad-hoc and DTN (Delay Tolerant Network) hybrid protocols, ROS2 common interfaces for plugging diverse modules, and an adaptive mission manager for real-time emergency replanning.
