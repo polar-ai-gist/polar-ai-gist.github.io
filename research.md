@@ -4,10 +4,10 @@ title: Research
 permalink: /research/
 nav: true
 nav_order: 4
-g1_image: 
-g2_image: 
-g3_image: 
-g4_image: 
+g1_image: /assets/img/research/g1.png
+g2_image: /assets/img/research/g2.png
+g3_image: /assets/img/research/g3.png
+g4_image: /assets/img/research/g4.png
 ---
 
 Our research is divided into four main groups (G1-G4) working in harmony to develop an integrated autonomous robotic system for extreme environments.
