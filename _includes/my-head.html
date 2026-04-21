@@ -1,0 +1,77 @@
+<style>
+  /* Smooth transition for hy-drawer when toggling cover mode via title click */
+  hy-drawer#_drawer {
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+  hy-drawer#_drawer .sidebar {
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+</style>
+
+<script>
+  // ==========================================================================
+  // POLAR-AI: Home page full-screen drawer controller
+  // ==========================================================================
+  // Goal:
+  //   - Landing on "/" => full-screen sidebar (cover mode, opened)
+  //   - Clicking other menus (About, etc.) => 2-column layout
+  //   - Clicking hamburger on a 2-column page => full-screen sidebar (native)
+  //   - Clicking Home from any page => full-screen sidebar again
+  //   - Clicking site title => full-screen with smooth animation
+  // ==========================================================================
+
+  function isHomePage() {
+    var p = window.location.pathname;
+    return p === '/' || p === '/index.html';
+  }
+
+  function openDrawerFullScreen() {
+    var drawer = document.querySelector('hy-drawer');
+    if (!drawer) return;
+    if (!drawer.classList.contains('cover')) {
+      drawer.classList.add('cover');
+    }
+    if (!drawer.hasAttribute('opened')) {
+      drawer.setAttribute('opened', '');
+    }
+  }
+
+  function closeDrawerCover() {
+    var drawer = document.querySelector('hy-drawer');
+    if (!drawer) return;
+    drawer.classList.remove('cover');
+  }
+
+  // --- On first page load ---
+  document.addEventListener('DOMContentLoaded', function() {
+    if (isHomePage()) {
+      openDrawerFullScreen();
+    }
+  });
+
+  // --- On Hydejack push-state navigation ---
+  document.addEventListener('hy-push-state-after', function() {
+    if (isHomePage()) {
+      openDrawerFullScreen();
+    } else {
+      closeDrawerCover();
+    }
+  });
+
+  document.addEventListener('hy-push-state-load', function() {
+    if (isHomePage()) {
+      openDrawerFullScreen();
+    } else {
+      closeDrawerCover();
+    }
+  });
+
+  // Clean up #_drawer--opened from URL bar after hamburger clicks
+  window.addEventListener('hashchange', function() {
+    if (window.location.hash === '#_drawer--opened') {
+      setTimeout(function() {
+        history.replaceState(null, '', window.location.pathname + window.location.search);
+      }, 100);
+    }
+  });
+</script>

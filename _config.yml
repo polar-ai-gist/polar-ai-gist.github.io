@@ -1,0 +1,98 @@
+lang:                  en
+title:                 POLAR-AI Research Center
+description:           Extreme Environment Physical AI
+copyright:             © 2026. All rights reserved.
+url:                   https://polar-ai-gist.github.io
+baseurl:               ""
+
+accent_image:          /assets/img/sidebar-bg.jpg
+accent_color:          "#4a7c6b"
+theme_color:           "#5e9e88"
+
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Director
+    url: /director/
+  - title: Research
+    url: /research/
+  - title: People
+    url: /people/
+  - title: Facilities
+    url: /facilities/
+  - title: Join
+    url: /join/
+  - title: Contact
+    url: /contact/
+
+google_fonts:          false
+
+hydejack:
+  post_addons:         [about, newsletter, related, random, comments]
+  project_addons:      [about, newsletter, other, comments]
+
+  no_mark_external:    false
+  no_push_state:       false
+  no_drawer:           false
+  no_navbar:           false
+  no_search:           false
+  no_inline_css:       false
+  no_page_style:       false
+  no_break_layout:     true
+  no_toc:              false
+  no_third_column:     false
+  no_large_headings:   false
+  no_structured_data:  false
+  no_theme_color:      false
+  no_breadcrumbs:      false
+
+  use_lsi:             true
+  cookies_banner:      true
+  advertise:           true
+  hide_dates:          false
+  hide_last_modified:  false
+
+  dark_mode:
+    always:            false
+    dynamic:           true
+    sunrise:           6
+    sunset:            18
+    icon:              true
+
+  offline:
+    enabled:           false
+    cache_version:     1
+    precache_assets:
+      - /assets/img/swipe.svg
+
+optional_front_matter:
+  remove_originals:    true
+
+readme_index:
+  remove_originals:    true
+  with_frontmatter:    true
+
+relative_links:
+  collections:         true
+
+titles_from_headings:
+  strip_title:         true
+  collections:         true
+
+compress_html:
+  comments:            ["<!-- ", " -->"]
+  clippings:           all
+  endings:             all
+  ignore:
+    envs:              [development]
+
+sass:
+  style:               compressed
+  quiet_deps:          true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache

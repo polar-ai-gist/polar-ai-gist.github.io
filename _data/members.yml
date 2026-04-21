@@ -1,0 +1,117 @@
+gist_faculty:
+  - name: Hyosung Ahn
+    role: Center Director, G4 Participating Faculty
+    expertise: Control Systems, Integration
+    image: /assets/img/people/hyosungahn.jpg
+    url: https://me.gist.ac.kr/dcas/index.do
+  - name: Pilwon Hur
+    role: Vice Director, G1 Group Lead
+    expertise: RL Gait, Manipulation
+    image: /assets/img/people/pilwonhur.jpg
+    url: https://hurgroup.net
+  - name: Jaehun Seol
+    role: G2 Group Lead
+    expertise: 2D Material IR Sensors
+    image: /assets/img/people/jaehunseol.png
+    url: https://nheat.gist.ac.kr/nheat/
+  - name: Seunghyun Lee
+    role: G3 Group Lead
+    expertise: Thermal Management, Energy Systems
+    image: /assets/img/people/seunghyunlee.png
+    url: https://tpftml.gist.ac.kr/tpftml/
+  - name: Jaewook Lee
+    role: Vice Director, G4 Group Lead
+    expertise: Communication, Mission Manager
+    image: /assets/img/people/jaewooklee.jpg
+    url: https://sites.google.com/view/e-mobility-design-opt-lab/
+  - name: Pyojin Kim
+    role: G1 Participating Faculty
+    expertise: Vision, SLAM
+    image: /assets/img/people/pyojinkim.png
+    url: https://mpil-gist.github.io/
+  - name: Jiyeon Kang
+    role: G1 Participating Faculty
+    expertise: AI Perception, Foundation Models
+    image: /assets/img/people/jiyeonkang.jpg
+    url: https://www.awearlab.com/
+  - name: Hyunseok Oh
+    role: G2 Participating Faculty
+    expertise: AI Reliability, Anomaly Detection
+    image: /assets/img/people/hyunseokoh.jpg
+    url: https://sddo.gist.ac.kr/
+  - name: Minkyung Kim
+    role: G2 Participating Faculty
+    expertise: Meta-structure Design
+    image: /assets/img/people/minkyungkim.jpg
+    url: https://photonics.gist.ac.kr/photonics/
+  - name: Solkeun Jee
+    role: G3 Participating Faculty
+    expertise: CFD Numerical Analysis
+    image: /assets/img/people/solkeunjee.jpg
+    url: https://theory.gist.ac.kr/
+  - name: Kwangsup Eom
+    role: G3 Participating Faculty
+    expertise: Battery Materials
+    image: /assets/img/people/kwangsupeom.jpg
+    url: https://sites.google.com/view/gisteesl
+  - name: Jinhyun Bae
+    role: G4 Participating Faculty
+    expertise: System Integration
+    image: /assets/img/people/jinhyunbae.jpg
+    url: https://cwww.gist.ac.kr/ecpl/index.do
+
+university_faculty:
+  - name: Ayoung Hong
+    affiliation: Chonnam National Univ.
+    role: G1 Participating Faculty
+    expertise: Mobile Robots
+    image: /assets/img/people/ayounghong.png
+    url: https://sites.google.com/view/airlab-jnu
+  - name: Hyoungil Son
+    affiliation: Chonnam National Univ.
+    role: G1 Participating Faculty
+    expertise: KAREX, Multi-robots
+    image: /assets/img/people/hyoungilson.jpg
+    url: http://hralab.jnu.ac.kr
+  - name: Jaeheung Park
+    affiliation: Seoul National Univ.
+    role: G1 Participating Faculty
+    expertise: Humanoid HW, Whole-body Control
+    image: /assets/img/people/jaeheungpark.png
+    url: http://dyros.snu.ac.kr/
+  - name: Junghyo Nah
+    affiliation: Chungnam National Univ.
+    role: G2 Participating Faculty
+    expertise: Tactile Sensors
+    image: /assets/img/people/junghyonah.png
+    url: https://sites.google.com/view/cnuaeem/home?authuser=0
+  - name: Kiyong Oh
+    affiliation: Hanyang Univ.
+    role: G2 Participating Faculty
+    expertise: RUL Prediction
+    image: /assets/img/people/kiyongoh.png
+    url: https://adip.hanyang.ac.kr/
+  - name: Jonghoon Kim
+    affiliation: Chungnam National Univ.
+    role: G3 Participating Faculty
+    expertise: BMS Algorithms
+    image: /assets/img/people/jonghoonkim.jpg
+    url: https://escl.cnu.ac.kr/en
+  - name: Duckjong Kim
+    affiliation: Gyeongsang National Univ.
+    role: G3 Participating Faculty
+    expertise: Active Thermal Switch
+    image: /assets/img/people/duckjongkim.jpg
+    url: https://needs.gnu.ac.kr/
+  - name: Hyungbo Shim
+    affiliation: Seoul National Univ.
+    role: G4 Participating Faculty
+    expertise: Distributed Consensus, Control
+    image: /assets/img/people/hyungboshim.png
+    url: https://hshim.wordpress.com/
+  - name: Jongeun Choi
+    affiliation: Yonsei Univ.
+    role: G4 Participating Faculty
+    expertise: System Integration
+    image: /assets/img/people/jongeunchoi.jpg
+    url: https://mlcs.yonsei.ac.kr/index.html
