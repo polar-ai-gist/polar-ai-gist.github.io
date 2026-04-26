@@ -40,6 +40,4 @@ We are looking for experts in:
 *   **Multi-Mentoring System:** Cross-mentoring from faculty across various institutions, globally renowned scholars, and industry R&D executives.
 
 ### How to Apply
-Applications are reviewed on a rolling basis. Please send your CV, a brief cover letter, and a list of your top 3 publications to our administrative office.
-
-**Contact Form** (Placeholder for actual form or email address)
+Applications are reviewed on a rolling basis. For the detailed application process and requirements, please refer to the [official GIST recruitment notice](https://www.gist.ac.kr/kr/html/sub06/060103.html?mode=V&no=221383). 
